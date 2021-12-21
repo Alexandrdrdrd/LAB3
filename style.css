@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: burlywood;
+}
+.main-container {
+    width: 100%;
+    text-align: center;
+    padding: 1% 0;
+}
+.main-container button {
+    padding: 0 7px;
+    font-size: 20px;
+    background-color: orange;
+    cursor: pointer;
+    text-decoration: none;
+}
+#gallery {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#gallery img {
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    margin: 1% 0;
+    cursor: pointer;
+}
